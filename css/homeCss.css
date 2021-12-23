@@ -1,0 +1,218 @@
+/****************************************************整体布局**********************************************************************/
+/********************************总体大布局****************************/
+/**********************************top+foot+导航栏在common里**************************************/
+.big-center{
+    height:980px;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.first-big-menu{
+    height: 560px;
+    width: 1200px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+}
+.second-big-menu{
+    height: 780px;
+    width: 1200px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+}
+/**********************************细节来了********************************************/
+/**********************************第一块布局***************************************/
+.scroll-picture{
+    height: 298px;
+    width: 604px;
+    /*border: 1px solid red;*/
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    left:145px;
+    top: 460px;
+}
+.event-menu{
+    height: 342px;
+    width: 360px;
+    /*border: 1px solid green;*/
+    float: left;
+    overflow: hidden;
+    position: absolute;
+    left:764px;
+    top: 612px;
+}
+.strong-a{
+    width: 236px;
+    height: 342px;
+    /*border: 1px solid blue;*/
+    float: right;
+    overflow: hidden;
+    position: absolute;
+    left:1124px;
+    top: 612px;
+}
+.img-a{
+    width: 1200px;
+    height: 134px;
+    /*border: 1px solid blue;*/
+    position: absolute;
+    top: 980px;
+    left: 160px;
+}
+.first-left{
+    width: 872px;
+    height: 528px;
+    /*border: 1px solid orangered;*/
+    float: left;
+}
+.first-right{
+    width: 295px;
+    height: 528px;
+    /*border: 1px solid purple;*/
+    float: right;
+}
+.left-font-head{
+    height: 26px;
+    /*border: 1px solid orangered;*/
+}
+.left-father-menu{
+    height: 32px;
+    /*border: 1px solid black;*/
+    background-color:#F0F0F0;
+}
+.left-son-menu{
+    height: 26px;
+    /*border: 1px solid orangered;*/
+}
+.first-left-main{
+    position: relative;
+    height: 410px;
+    /*border: 1px solid black;*/
+}
+.right-font-head{
+    height: 26px;
+    /*border: 1px solid purple;*/
+}
+.right-father-menu{
+    height: 32px;
+    /*border: 1px solid purple;*/
+}
+/*****************************************************第二块布局*********************************************/
+.second-left{
+    width: 872px;
+    height: 778px;
+    /*border: 1px solid red;*/
+    float: left;
+}
+.second-left-main{
+    height: 410px;
+    /*border: 1px solid black;*/
+    margin-top: 260px ;
+}
+.second-right{
+    width: 295px;
+    height: 600px;
+    /*border: 1px solid blue;*/
+    float: right;
+}
+.second-right-main{
+    height: 136px;
+    /*border: 1px solid blue;*/
+}
+/***********************************************轮播图****************************************/
+.bar{transition: 0.5s;}
+.r{visibility: hidden;}/*隐藏radio按钮*/
+.slides{
+    width: 500%;/**父元素100%，slides长度500%***/
+    height: 100%;
+    position: absolute;
+    left: -105px;
+    display: flex;
+}
+.slide{
+    width: 20%;/*0.2*5=1;100/500=20%/
+    transition: 0.5s; /*delay(延迟)*/
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+/*绑定按钮*/
+#r1:hover~ .s1{
+    margin-left: 0;
+}
+#r2:hover~ .s1{
+    margin-left: -20%;
+}
+#r3:hover~.s1{
+    margin-left: -40%;
+}
+#r4:hover~.s1{
+    margin-left: -60%;
+}
+#r5:hover~.s1{
+    margin-left: -80%;
+}
+.img-btn{
+    height: 42px;
+    width: 604px;
+    /*border: 1px brown solid;*/
+    position: absolute;
+    left:145px;
+    top: 760px;
+    background: rgba(50,50,53,0.9);
+}
+.img-btn>ul{
+    padding: 0;
+    margin: 0;
+}
+.img-btn>ul>li{
+    height: 42px;
+    list-style: none;
+    float: left;
+    padding-right: 3px;
+    margin: 0;
+    padding-top: 0;
+    text-align: center;
+}
+.img-btn>ul>li>a{
+    text-decoration: none;
+}
+.img-btn>ul>li:hover{
+    background-image:linear-gradient(to bottom,rgba(255,215,0,0.1),rgba(255,215,0,0.3));
+    color: gold;
+}
+.font-style {
+    font-size: medium;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    margin: 0;
+    color: white;
+}
+/******************************************************第一部分，横着的三大块样式*************************************/
+.event-menu>ul{
+    margin: 0;
+    height: 342px;
+    width: 360px;
+    background: rgba(50,50,53,0.5);
+}
+.event-menu>ul>li{
+    list-style: none;
+    float: left;
+}
+.event-menu>ul>li:hover{
+    border-bottom: 3px solid gold;
+}
+.event-menu>ul>li:hover p{
+    color: gold;
+}
+.event-menu>ul>li>a>p{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.strong-a{
+    background: rgba(50,50,53,0.5);
+}
+.img-a>a{
+    padding-left: 5px;
+}

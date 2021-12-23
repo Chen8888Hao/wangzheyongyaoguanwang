@@ -1,0 +1,83 @@
+/**************************************渐变背景**********************************/
+.grey-background{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:528px;
+    height: 700px;
+    background-image:linear-gradient(to bottom,rgba(230,230,250,0.9),rgba(255,255,255,0.7));
+}
+/*******************************************英雄滑动**************************************/
+.hero-slide{
+    position: absolute;
+    left: 160px;
+    top:420px;
+    z-index: 1;
+    width: 772px;
+    height: 109px;
+    background:rgba(25,89,106,0.9) ;
+}
+.hero-slide .long-img{
+    position: relative;
+    z-index: 2;
+    visibility: hidden;
+}
+.hero-slide ul{
+    width: 700px ;/*224+70*5+5*10*/
+    height: 100px;
+    list-style: none;
+    /*border: 1px solid red;*/
+    display: flex;
+}
+.hero-slide li{
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-left: 10px;
+    display: flex;
+}
+.hero-slide li:hover .long-img{
+    visibility: visible;
+}
+.hero-slide li:hover{
+    width: 224px;
+}
+.hero-slide li:hover .small-img{
+    display: none;
+}
+.hero-slide li img:first-child{
+    width: 70px;
+    height: 70px;
+}
+.hero-right{
+    position: absolute;
+    left: 763px;
+    top:0;
+    z-index: 2;
+    width: 430px;
+    height: 109px;
+    background:rgba(25,89,106,0.9) ;
+
+}
+.hero-right>img{padding-left: 10px;padding-top: 20px;}
+/**********************************游戏介绍*****************************/
+.first-big-menu{
+    width: 1200px;
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+}
+.game-intro{width: 1200px;margin: 0 auto}
+.menu-head{width: 1200px;height: 45px;background-color: #3D4253}
+.menu-head ul{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+}
+.menu-head ul li p{color: grey}
+.menu-head ul li{
+    float: left;
+    padding-left: 161px;
+    padding-right: 161px;
+    margin: 0 1px;
+}
+.menu-head li:hover {background-color: #F0F0F0;border-top: 3px solid blue}

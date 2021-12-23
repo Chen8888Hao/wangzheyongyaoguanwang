@@ -1,0 +1,90 @@
+/***************************************攻略中心样式******************************************/
+.first-left h3{margin-top: 0;display: inline-block;width: 830px}
+.first-right h3, .second-right h3{margin-top: 0;display: inline-block;width: 255px}
+.font-grey-small{
+    margin-left: 0;
+    margin-top: 0;
+    display: inline-block;
+    font-size: medium;
+    color: grey;
+}
+.right-father-menu{ height: 32px;background-color:#F0F0F0;<!--border: 1px solid black;--> }
+.left-father-menu>ul , .right-father-menu>ul{
+    padding: 0;
+    margin: 0;
+}
+.left-father-menu>ul>li{
+    list-style: none;
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.right-father-menu>ul>li{
+    list-style: none;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.left-father-menu>ul>li:hover , .right-father-menu>ul>li:hover{
+    border-bottom: 3px solid gold;
+}
+.left-father-menu>ul>li>p,.right-father-menu>ul>li>p{color: dimgrey;padding-top: 5px;margin: 0}
+.left-father-menu>ul>li:hover p,.right-father-menu>ul>li:hover p{color: black}
+.left-son-menu>a>p{padding-top: 0;padding-left: 10px;padding-right:10px;margin-top: 10px;
+    margin-left: 10px;  font-size: medium;display: inline-block;color: dimgrey;
+    background-color: #F0F0F0;border-radius: 50px;}
+.left-son-menu>a:hover p{color: black}
+.first-left-main>table{
+    width: 872px;
+    /*border: 1px solid red;*/
+}
+.first-left-main img{
+    width: 100%;display: block;
+}
+.first-left-main p{
+    font-size: 14px;
+}
+/**********蒙版**********/
+.mask{
+    position: absolute;
+    visibility: hidden;
+    opacity: 0.8;
+}
+.first-left-main .td1:hover .mask{
+    visibility: visible;
+}
+.first-left-main .td1 img{position: absolute;left: 5px;top: 10px;}
+/******************************************英雄皮肤样式*******************************************/
+.first-right table h3{
+    line-height: 42px;
+    margin: 0;
+}
+.first-right table p{
+    color: dimgrey;
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+/********************************************第二大块赛事中心KCC***************************************************/
+.second-left h3 , .second-right h3{line-height: 26px;margin: 0;padding: 0}
+.second-big-menu .left-father-menu>ul>li{
+    list-style: none;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.second-big-menu .left-father-menu .big-table{/*border: 1px solid deeppink;*/margin-top: 30px;width: 872px}
+.second-big-menu .left-father-menu .second-table{/*border: 1px solid deeppink;*/width: 660px;margin-top: 0}
+.second-big-menu .left-father-menu table p{padding: 0;margin: 0}
+.second-big-menu .left-father-menu .grey-bg{background-color:#F0F0F0;border-radius: 50px;}
+.second-big-menu .left-father-menu .special-p{padding: 0;margin:0}
+.second-big-menu table{margin-top: 270px}
+/****************************************KCC赛程******************************************************/
+.second-right .right-father-menu>ul>li{
+    list-style: none;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.second-right-main table{height: 136px;width: 295px;margin: 0}
+.second-right-main table img{width: 100%;height: 100%}

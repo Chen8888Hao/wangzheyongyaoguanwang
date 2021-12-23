@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>游戏中心</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/gameintroduce.css">
+    <style type="text/css">
+        .bg{
+            height: 1080px;
+            background-image: url("gonglue/gamecenterbg.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 43%;
+            /*border: 5px solid saddlebrown;*/
+        }
+        .menu-content{width: 1200px;margin: 0 auto;height: 1080px;border: 1px solid red;padding: 0}
+        .menu-content .intro{width: 1200px;margin: 0 auto;height: 530px;border: 1px solid blue;padding: 0}
+        .menu-content .step_border {
+            display: inline-block;
+            border-top: 1px solid #DBDBDB;
+            border-bottom: 1px solid #DBDBDB;
+            background: #EAEAEA;
+            height: 4px;
+            width: 998px;
+            top: 735px;
+            left: 260px;
+            position: absolute;
+            z-index: -1;
+        }
+        .menu-content .special a{margin-left:70px;margin-right: 75px;margin-top: 30px;}
+        .menu-content .special .un1,.un2,.un3,.un4,.un5{padding-left:76px;padding-right: 120px;margin-top: 5px;
+           }
+        .menu-content .special  #s1,#s2,#s3,#s4,#s5{
+            padding-left:76px;padding-right: 119px;margin-top: -40px;margin-bottom: 18px;
+        }
+        .menu-content .special a{width: 20px;height: 20px;border: 2px solid gray;color: dimgrey}
+        .menu-content .special a:hover{background-color: blue;color: #F0F0F0}
+        .menu-content .special #s1,#s2,#s3,#s4,#s5{visibility: hidden}
+        .un1:hover {visibility: hidden}
+        .un1:hover #s1{visibility: visible;}
+        .un2:hover {visibility: hidden}
+        .un2:hover #s2{visibility: visible;}
+        .un3:hover {visibility: hidden}
+        .un3:hover #s3{visibility: visible;}
+        .un4:hover {visibility: hidden}
+        .un4:hover #s4{visibility: visible;}
+        .un5:hover {visibility: hidden}
+        .un5:hover #s5{visibility: visible;}
+        .foot{
+            height: 300px;width: 1200px;position: absolute;left: 155px;right: 200px;top:1740px;
+        }
+    </style>
+</head>
+<body>
+<div class="top">
+    <div class="game-head">
+        <ul>
+            <li>
+                <a href="https://game.qq.com/?ADTAG=IED.InnerCop.gameWeb.topNav"><img src="home-img/gamelogo.jpg" alt="" class="logo-img"></a>
+            </li>
+            <li>
+                <a href="#"><img src="home-img/logo2.jpg" alt="" class="logo2"></a>
+                <div class="logo-response">
+                    <img src="home-img/87.jpg" alt="">
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="home-img/logo.png" alt="" align="center" id="hover-red">成长守护平台</a>
+            </li>
+            <li>腾讯游戏排行榜</li>
+        </ul>
+    </div>
+</div>
+<div class="bg">
+    <img src="home-img/logo%20(1).png" class="bg-logo" alt="">
+    <!-----------------------------------导航栏------------------------------------>
+    <div class="important-index">
+        <ul class="index-menu">
+            <li><a href="#">官网首页<br><p>HOME</p></a></li>
+            <li><a href="#">游戏资料<br><p>DATA</p></a></li>
+            <li><a href="#">攻略中心<br><p>RAIDERS</p></a></li>
+            <li><a href="#">赛事中心<br><p>MATCH</p></a></li>
+            <li><a href="#">王者生活<br><p>LIFE</p></a></li>
+            <li><a href="#">社区互动<br><p>COMMUNITY</p></a></li>
+            <li><a href="#">玩家支持<br><p>PLAYER</p></a></li>
+            <li><a href="#"><img src="home-img/11.png" alt=""></a></li>
+            <li><a href="#">欢迎登录<br><p>登录后查看游戏战绩</p></a></li>
+        </ul>
+    </div>
+    <div class="detail-menu" id="menu2">
+        <ul>
+            <li>
+                <a href="#"><p>版本介绍</p></a><br>
+                <a href="#"><p>游戏介绍</p></a><br>
+                <a href="#"><p>英雄资料</p></a><br>
+                <a href="#"><p>爆料站</p></a><br>
+                <a href="#"><p>故事站</p></a><br>
+                <a href="#"><p>游戏壁纸</p></a><br>
+            </li>
+            <li>
+                <a href="#"><p>攻略中心</p></a><br>
+                <a href="#"><p>游戏攻略</p></a><br>
+                <a href="#"><p>视频中心</p></a><br>
+                <a href="#"><p>开放素材库</p></a><br>
+                <a href="#"><p>王者视角</p></a><br>
+                <a href="#"><p>作者入驻</p></a><br>
+                <a href="#"><p>媒体入驻</p></a><br>
+            </li>
+            <li>
+                <a href="#"><p>KPL</p></a><br>
+                <a href="#"><p>世界冠军杯</p></a><br>
+                <a href="#"><p>模拟战大师赛</p></a><br>
+                <a href="#"><p>K甲联赛</p></a><br>
+                <a href="#"><p>高校赛</p></a><br>
+                <a href="#"><p>大众赛</p></a><br>
+                <a href="#"><p>全民赛</p></a><br>
+                <a href="#"><p>赛事数据</p></a><br>
+            </li>
+            <li>
+                <a href="#"><p>荣耀-传承</p></a><br>
+                <a href="#"><p>王者文化站</p></a><br>
+                <a href="#"><p>王者音乐厅</p></a><br>
+                <a href="#"><p>万千世界</p></a><br>
+                <a href="#"><p>星光殿堂</p></a><br>
+                <a href="#"><p>商户特权</p></a><br>
+                <a href="#"><p>无限王者团</p></a><br>
+            </li>
+            <li>
+                <a href="#"><p>创意互动营</p></a><br>
+                <a href="#"><p>王者营地</p></a><br>
+                <a href="#"><p>手Q部落</p></a><br>
+                <a href="#"><p>微信圈子</p></a><br>
+                <a href="#"><p>官方微博</p></a><br>
+                <a href="#"><p>微信公众号</p></a><br>
+                <a href="#"><p>手Q订阅号</p></a><br>
+                <a href="#"><p>同人社区</p></a><br>
+            </li>
+            <li>
+                <a href="#"><p>成长守护平台</p></a><br>
+                <a href="#"><p>健康系统</p></a><br>
+                <a href="#"><p>对局环境情报站</p></a><br>
+                <a href="#"><p>客服专区</p></a><br>
+                <a href="#"><p>礼包兑换</p></a><br>
+                <a href="#"><p>自助服务</p></a><br>
+            </li>
+        </ul>
+    </div>
+    <div class="hero-slide">
+        <p style="color: lightgray;font-size: medium;padding-left:20px;margin: 0" ><b>周免英雄 （9月28日-10月4日）</b></p>
+        <ul id="slide">
+            <li><img src="hero-inro/111.jpg" alt="" class="small-img"><img src="hero-inro/111-freehover.png" class="long-img" alt=""></li>
+            <li><img src="hero-inro/121.jpg" alt="" class="small-img"><img src="hero-inro/121-freehover.png" class="long-img" alt=""></li>
+            <li><img src="hero-inro/139.jpg" alt="" class="small-img"><img src="hero-inro/139-freehover.png" class="long-img" alt=""></li>
+            <li><img src="hero-inro/170.jpg" alt="" class="small-img"><img src="hero-inro/170-freehover.png" class="long-img" alt=""></li>
+            <li><img src="hero-inro/174.jpg" alt="" class="small-img"><img src="hero-inro/174-freehover.png" class="long-img" alt=""></li>
+            <li><img src="hero-inro/187.jpg" alt="" class="small-img"><img src="hero-inro/187-freehover.png" class="long-img" alt=""></li>
+            <li><img src="hero-inro/191.jpg" alt="" class="small-img"><img src="hero-inro/191-freehover.png" class="long-img" alt=""></li>
+        </ul>
+        <div class="hero-right">
+            <p style="color: #F0F0F0;line-height: 80px;"><img src="hero-inro/avatar1.jpg" alt="" align="left" >&nbsp;亲爱的召唤师，欢迎登录</p>
+        </div>
+    </div>
+    <div class="grey-background">
+        <div class="first-big-menu">
+            <p><a style="color: black;text-decoration: underline" href="homepage.html">王者荣耀首页</a>>走进王者荣耀</p>
+        </div>
+        <div class="game-intro">
+            <div class="menu-head">
+                <ul>
+                    <li><p>走进王者荣耀</p></li>
+                    <li><p>新手指南</p></li>
+                    <li><p>新手推荐</p></li>
+                </ul>
+            </div>
+            <!---------------内容---------------->
+            <div class="menu-content">
+                <div class="intro">
+                    <h3 style="margin-left: 40px">游戏介绍</h3>
+                    <img src="hero-inro/intro1.jpg" align="left" style="margin-right: 40px;margin-left: 40px">
+                    <h1 style="font-weight: normal">游戏介绍</h1>
+                    <p style="margin-right: 40px;color: dimgrey">
+                        《王者荣耀》是腾讯第一5V5英雄公平对战手游，于10月28日开启不限
+                        号测试!5V5王者峡谷（含迷雾模式）、5V5深渊大乱斗、以及3V3、
+                        1V1等多样模式一键体验，热血竞技尽享快感!海量英雄随心选择，精妙
+                        配合默契作战!10秒实时跨区匹配，与好友组队登顶最强王者!操作简
+                        单易上手，—血、五杀、超神，极致还原经典体验!实力操作公平对战，
+                        回归MOBA初心!</p>
+                </div>
+                <!----------------游戏特色---------------------->
+                <div class="special">
+                    <h3 style="margin-left: 40px">游戏特色</h3>
+                    <a id="a1">游戏特色一</a>
+                    <a id="a2">游戏特色二</a>
+                    <a id="a3">游戏特色三</a>
+                    <a id="a4">游戏特色四</a>
+                    <a id="a5">游戏特色五</a>
+                    <br>
+                    <img src="hero-inro/unselected.png" class="un1">
+                    <img src="hero-inro/unselected.png" class="un2">
+                    <img src="hero-inro/unselected.png" class="un3">
+                    <img src="hero-inro/unselected.png" class="un4">
+                    <img src="hero-inro/unselected.png" class="un5">
+                    <img src="hero-inro/selected.png"  id="s1">
+                    <img src="hero-inro/selected.png"  id="s2">
+                    <img src="hero-inro/selected.png"  id="s3">
+                    <img src="hero-inro/selected.png"  id="s4">
+                    <img src="hero-inro/selected.png"  id="s5">
+                    <i class="step_border"></i>
+                </div>
+                <img src="hero-inro/intro2.jpg" align="right" style="margin-right: 40px;margin-left: 40px" >
+                <h1 style="font-weight: normal;padding-left: 40px">5V5越塔强杀!开团</h1>
+                <p style="margin-right: 40px;color: dimgrey; padding-left: 40px">
+                我们拥有5V5经典地图，使用三路推塔核心玩法，呈现出最原滋原味的
+                MOBA游戏对战体验!在王者荣耀里，我们根据英雄玩法使用不同的策
+                略，根据英雄特色组建完美阵容，默契配合成就最强王者!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------------最下方foot------------------------------------>
+<div class="foot">
+    <div class="foot-picture">
+        <a href="https://ieg.tencent.com/"><img src="home-img/foot.png" alt=""></a>
+        <a href="javascript:void(0)" ><img src="home-img/foot1.jpg" alt=""></a>
+        <select name="choose"><option name="choose1">合作伙伴</option></select>
+        <hr color="grey">
+    </div>
+
+    <div class="foot-left">
+        <h5 style="margin-bottom:3px">温馨提示∶本游戏适合16岁(含)以上玩家娱乐</h5>
+        <p style="font-size: small;margin: 0">抵制不良游戏&nbsp;拒绝盗版游戏&nbsp;注意自我保护&nbsp;谨防受骗上当</p>
+        <p style="font-size: small;margin: 2px">适度游戏益脑&nbsp;沉迷游戏伤身&nbsp;合理安排时间&nbsp;享受健康生活</p>
+    </div>
+    <div class="foot-right">
+        <p style="font-size: small;margin: 0">腾讯互动娱乐│服务条款│广告服务│腾讯游戏招聘│腾讯游戏客服│游戏地图│游戏活动│商务合作|网站导航</p>
+        <p style="font-size: small;margin: 0">COPYRIGHT&nbsp; &copy;&nbsp;1998- 2017 &nbsp;TENCENT.ALL RIGHTS RESERVED.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;腾讯公司版权所有</p>
+        <p style="font-size: small;margin: 0">粤网文[2017]6138-1456号&ISBN 978-7-7979-8408-9|新出网证（粤）字010号|文网游备字[2016]M-CSG 0059</p>
+        <p style="font-size: small;margin: 0">批准文号:新广出审[2017]6712号│全国文化市场统一举报电话:12318</p>
+    </div>
+</div>
+</body>
+</html>
